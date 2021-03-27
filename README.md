@@ -9,3 +9,6 @@ What made this website/server 'dynamic' was through the extensive use of EJS tem
 The Hyper command line was used to install modules/dependencies (i.e. JSON package) via npm install etc. To run the app, Nodemon was run in the cli ("Nodemon app.js") and by opening up a browser and typing in "localhost:3000/" in the address bar. 
 
 Lastly, Lodash was installed and used in code for dealing with javascript strings and route naming.
+
+![image](https://user-images.githubusercontent.com/34729011/112703660-fdb7a480-8e54-11eb-9a26-9a058308b706.png)
+
