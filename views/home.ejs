@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+<p> <%= startingContent %> </p>
+
+<!-- show each post on home page using a js forEach loop --> 
+<% posts.forEach(function(post) { %>
+   
+   <h1> <%=post.title%> </h1>
+   
+   <p> 
+      <!-- only show first 100 characters using substring(0, 100) -->
+      <%= post.content.substring(0, 100) + "..." %> 
+      <!-- anchor tag -->
+      <a href="/posts/<%=post.title%>">Read More</a> 
+   </p> 
+
+<% }); %>
+
+<%- include("partials/footer"); -%>
+
