@@ -11,8 +11,8 @@
    <p> 
       <!-- only show first 100 characters using substring(0, 100) -->
       <%= post.content.substring(0, 100) + "..." %> 
-      <!-- anchor tag -->
-      <a href="/posts/<%=post.title%>">Read More</a> 
+      <!-- anchor tag is now based on the post id instead of the post name -->
+      <a href="/posts/<%=post._id%>">Read More</a> 
    </p> 
 
 <% }); %>
